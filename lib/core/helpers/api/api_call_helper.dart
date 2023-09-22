@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:wtf_gym_assignment/helpers/api/api_logging_interceptor.dart';
+import 'package:wtf_gym_assignment/core/helpers/api/api_logging_interceptor.dart';
 
 class ApiCallHelper<T> {
   final Dio _dio;

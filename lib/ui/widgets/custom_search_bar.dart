@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wtf_gym_assignment/utils/color_constants.dart';
+import 'package:wtf_gym_assignment/core/utils/color_constants.dart';
 
 class CustomSearchBar extends StatelessWidget {
   final Function(String)? onChanged;

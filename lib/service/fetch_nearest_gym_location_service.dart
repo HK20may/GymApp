@@ -1,4 +1,4 @@
-import 'package:wtf_gym_assignment/helpers/api/api_call_helper.dart';
+import 'package:wtf_gym_assignment/core/helpers/api/api_call_helper.dart';
 import 'package:wtf_gym_assignment/models/gym_cities_model.dart';
 import 'package:wtf_gym_assignment/models/nearest_gym_location_model.dart';
 

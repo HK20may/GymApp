@@ -1,8 +1,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:wtf_gym_assignment/models/nearest_gym_location_model.dart';
-import 'package:wtf_gym_assignment/utils/color_constants.dart';
-import 'package:wtf_gym_assignment/utils/widgets_and_attributes.dart';
+import 'package:wtf_gym_assignment/core/utils/color_constants.dart';
+import 'package:wtf_gym_assignment/core/utils/widgets_and_attributes.dart';
 
 class GymDetailsCard extends StatelessWidget {
   final NearestGymLocation nearestGymLocationData;

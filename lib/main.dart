@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:wtf_gym_assignment/core/helpers/routes/route_generator.dart';
+import 'package:wtf_gym_assignment/core/helpers/routes/route_helper.dart';
 import 'package:wtf_gym_assignment/cubit/gym_location_cubit.dart';
-import 'package:wtf_gym_assignment/helpers/routes/route_generator.dart';
-import 'package:wtf_gym_assignment/helpers/routes/route_helper.dart';
 import 'package:wtf_gym_assignment/ui/screens/home_screen.dart';
 
 void main() {

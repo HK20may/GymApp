@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:wtf_gym_assignment/helpers/routes/route_helper.dart';
+import 'package:wtf_gym_assignment/core/helpers/routes/route_helper.dart';
 
 class BackButtonWidget extends StatelessWidget {
   final bool exitApp;

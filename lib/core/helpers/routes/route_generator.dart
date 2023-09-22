@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wtf_gym_assignment/helpers/routes/routes.dart';
+import 'package:wtf_gym_assignment/core/helpers/routes/routes.dart';
 import 'package:wtf_gym_assignment/ui/screens/gym_location_search_screen.dart';
 import 'package:wtf_gym_assignment/ui/screens/home_screen.dart';
 

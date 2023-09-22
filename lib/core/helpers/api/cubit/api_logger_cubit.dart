@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:wtf_gym_assignment/helpers/api/api_logging_interceptor.dart';
+import 'package:wtf_gym_assignment/core/helpers/api/api_logging_interceptor.dart';
 
 part 'api_logger_state.dart';
 

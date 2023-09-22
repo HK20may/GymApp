@@ -3,7 +3,7 @@ import 'dart:developer';
 
 import 'package:dio/dio.dart';
 import 'package:intl/intl.dart';
-import 'package:wtf_gym_assignment/helpers/api/cubit/api_logger_cubit.dart';
+import 'package:wtf_gym_assignment/core/helpers/api/cubit/api_logger_cubit.dart';
 
 class APILoggingInterceptor extends Interceptor {
   @override

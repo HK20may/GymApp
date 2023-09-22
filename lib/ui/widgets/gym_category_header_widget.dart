@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:wtf_gym_assignment/cubit/gym_location_cubit.dart';
-import 'package:wtf_gym_assignment/utils/color_constants.dart';
+import 'package:wtf_gym_assignment/core/utils/color_constants.dart';
 
 class GymCategoryHeaderWidget extends StatelessWidget {
   const GymCategoryHeaderWidget({super.key});

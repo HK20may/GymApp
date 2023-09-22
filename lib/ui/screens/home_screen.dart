@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:wtf_gym_assignment/core/helpers/routes/route_helper.dart';
+import 'package:wtf_gym_assignment/core/helpers/routes/routes.dart';
 import 'package:wtf_gym_assignment/cubit/gym_location_cubit.dart';
-import 'package:wtf_gym_assignment/helpers/routes/route_helper.dart';
-import 'package:wtf_gym_assignment/helpers/routes/routes.dart';
 import 'package:wtf_gym_assignment/models/nearest_gym_location_model.dart';
 import 'package:wtf_gym_assignment/ui/widgets/back_button_widget.dart';
 import 'package:wtf_gym_assignment/ui/widgets/custom_search_bar.dart';
 import 'package:wtf_gym_assignment/ui/widgets/gym_category_header_widget.dart';
 import 'package:wtf_gym_assignment/ui/widgets/gym_details_card.dart';
 import 'package:wtf_gym_assignment/ui/widgets/no_result_found_widget.dart';
-import 'package:wtf_gym_assignment/utils/color_constants.dart';
-import 'package:wtf_gym_assignment/utils/widgets_and_attributes.dart';
+import 'package:wtf_gym_assignment/core/utils/color_constants.dart';
+import 'package:wtf_gym_assignment/core/utils/widgets_and_attributes.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -49,7 +49,9 @@ class _HomeScreenState extends State<HomeScreen> {
     return AppBar(
       backgroundColor: Colors.white,
       elevation: 0,
-      leading: const BackButtonWidget(),
+      leading: const BackButtonWidget(
+        exitApp: true,
+      ),
       centerTitle: true,
       title: InkWell(
         onTap: () async {
